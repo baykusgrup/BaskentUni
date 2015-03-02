@@ -1,4 +1,4 @@
-package com.datarar.baskent_mobile;
+package app.z0nen.slidemenu;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
