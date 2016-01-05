@@ -1,0 +1,243 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/tvESemtBaslik"
+       android:paddingLeft="16dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Eğitim Dönemi Servis Programı"
+        />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/Ecard_view"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        card_view:contentPadding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textColor="@android:color/holo_blue_dark"
+                android:id="@+id/tvESemt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:text="Semt Servis Programı"
+                />
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                rv_centered="true">
+            <TextView
+                android:id="@+id/tvESemtGelis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="Geliş"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_below="@+id/textView"/>
+            </com.andexert.library.RippleView>
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                rv_centered="true">
+
+            <TextView
+                android:id="@+id/tvESemtGidis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="Gidiş"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_below="@+id/textView"/>
+            </com.andexert.library.RippleView>
+
+            <TextView
+                android:textColor="@android:color/holo_blue_dark"
+                android:id="@+id/tvESihhiye"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:text="Sıhhiye - Tunus Servis Programı"
+                />
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                rv_centered="true">
+
+            <TextView
+                android:id="@+id/tvESihGelis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="16dp"
+                android:text="Geliş"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_below="@+id/textView"/>
+
+            </com.andexert.library.RippleView>
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                rv_centered="true">
+
+            <TextView
+                android:id="@+id/tvESihGidis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Gidiş"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_below="@+id/textView"/>
+            </com.andexert.library.RippleView>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/tvTSemtBaslik"
+        android:paddingLeft="16dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Tatil Dönemi Servis Programı"
+        />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/Tcard_view"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        card_view:contentPadding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textColor="@android:color/holo_blue_dark"
+                android:id="@+id/tvTSemt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:text="Semt Servis Programı"
+                />
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                rv_centered="true">
+
+            <TextView
+                android:id="@+id/tvTSemtGelis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="16dp"
+                android:text="Geliş"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_below="@+id/textView"/>
+            </com.andexert.library.RippleView>
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                rv_centered="true">
+
+            <TextView
+                android:id="@+id/tvTSemtGidis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="16dp"
+                android:text="Gidiş"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_below="@+id/textView"/>
+            </com.andexert.library.RippleView>
+
+            <TextView
+                android:textColor="@android:color/holo_blue_dark"
+                android:id="@+id/tvTSihhiye"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:text="Sıhhiye - Tunus Servis Programı"
+                />
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                rv_centered="true">
+
+            <TextView
+                android:id="@+id/tvTSihGelis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="16dp"
+                android:text="Geliş"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_below="@+id/textView"/>
+            </com.andexert.library.RippleView>
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                rv_centered="true">
+
+            <TextView
+                android:id="@+id/tvTSihGidis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Gidiş"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_below="@+id/textView"/>
+            </com.andexert.library.RippleView>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

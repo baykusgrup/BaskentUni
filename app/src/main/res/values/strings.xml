@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Başkent Üniversitesi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_harita">Harita</string>
+    <string name="title_activity_yemekhane">Yemekhane</string>
+    <string name="title_activity_web">WebActivity</string>
+</resources>
